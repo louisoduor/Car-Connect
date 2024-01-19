@@ -58,5 +58,5 @@ Car Connect is licensed under the MIT License - see the [LICENSE](LICENSE) file 
 
 For inquiries or support, reach out to our team at louisodhiambo20@gmail.com.
 
-Thank you for choosing Summer Juice for your refreshing experience!
+
 
