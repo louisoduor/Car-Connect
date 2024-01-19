@@ -1,0 +1,85 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "image": "images/camry.jpg",
+        "price": 25000
+      },
+      {
+        "id": 2,
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2021,
+        "image": "images/civic.jpg",
+        "price": 22000
+      },
+      {
+        "id": 3,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2023,
+        "image": "images/mustang.jpg",
+        "price": 35000
+      },
+      {
+        "id": 4,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2022,
+        "image": "images/malibu.webp",
+        "price": 28000
+      },
+      {
+        "id": 5,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2021,
+        "image": "images/altima.webp",
+        "price": 23000
+      },
+      {
+        "id": 6,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2023,
+        "image": "images/BMW 3S.jpg",
+        "price": 40000
+      },
+      {
+        "id": 7,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2022,
+        "image": "images/mercedes c.jpg",
+        "price": 42000
+      },
+      {
+        "id": 8,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2021,
+        "image": "images/audi a4.avif",
+        "price": 38000
+      },
+      {
+        "id": 9,
+        "make": "Kia",
+        "model": "Optima",
+        "year": 2023,
+        "image": "images/optima.jpg",
+        "price": 27000
+      },
+      {
+        "id": 10,
+        "make": "Hyundai",
+        "model": "Sonata",
+        "year": 2022,
+        "image": "images/sonata.webp",
+        "price": 26000
+      }
+    ]
+  }
+  

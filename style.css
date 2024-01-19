@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+} 
+.min-h-screen{
+    margin-bottom: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    padding-top: 100px;
+}
+.nav-2{
+    margin-left: 55%;
+}
+#cont-0{
+    margin-left: 11%;
+    margin-top: 3%;
+}
+
+#cont{
+    background-image: url(./images/Clipboard\ wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont-3{
+    display: flex;
+   
+}
+.flex2 #flex3{
+    margin-right: 500px;
+
+}
+#cont-3 img{
+    width: 700px; 
+    border-radius: 300px;  
+}
+.list-with-dots {
+    list-style-type: disc;
+    padding-left: 20px; 
+    flex-direction:column;
+  }
+.button {
+    background-color:#494949 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 11%;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 900;
+  }
+  .about{
+    background-color: #494949 ;
+  }
+
+  .popular{
+    padding-left:3% ;
+  }
+  .popular1{
+    padding-left:8% ;
+  }
+  .available{
+    padding-left: 11%;
+  }
+  .column1 img{
+    border-radius: 60px;
+    width: 700px;
+    height: 380px;
+    margin-right: 120px;
+  }
+  .column2 img{
+    border-radius: 60px;
+    width: 600px;
+    height: 380px;
+  }
+  .column3 img{
+    border-radius: 60px;
+    width: 700px;
+    height: 362px;
+    margin-right: 120px;
+  }
+  .column4 img{
+    border-radius: 60px;
+    width: 600px;
+    height: 362px;
+  }
+  .available-cars{
+    margin-left: 13%;
+  }
+  .fleets{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15%;
+    height: 800px;
+    width: 400px;
+  }
+.fleets-div{
+    height: 500px;
+    width: 250px;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px;
+
+}
+.fleets-div button{
+    margin-bottom: 10px;
+}
+
+
+.car-photo{
+    width: 500px;
+}
+.car-photo img{
+    border-radius: 60px;
+}
+.follow{
+    background-color: #494949;
+}
+.flex-r{
+    background-color: #333; 
+    border-radius: 10px; 
+}
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .flex-row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:6% 15%;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 30px;
+    margin: 0 10px;
+    
+  }
+  
+  .email-subscription {
+    margin-top: 20px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+.post-car-section {
+    background-color: #333; 
+    padding: 20px; 
+    margin-top: 20px; 
+    border-radius: 10px;
+    padding-left: 15%;
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+.form-input {
+    width: 500px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    border-radius: 10px;
+}
+.form-input::placeholder {
+    color: black; 
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.button {
+    background-color: black; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.button:hover {
+    background-color: white;
+    color: black; 
+}
+#selected-car{
+    padding-top: 22%;
+    padding-left: 110%;
+}
+#purchaseForm{
+    padding-top: 15%;
+    padding-left: 40%;
+}
+.purchase-button{
+    border-radius: 10px;
+    font-weight: 900;
+}
+.back-button{
+    border-radius: 10px;
+    font-weight: 900;
+}
+.form-input{
+    font-weight: 900;
+    color: black;
+}
+
+/* .selected-car{
+    display: flex;
+    flex-direction: row;
+} */

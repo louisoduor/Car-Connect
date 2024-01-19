@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body >
+<div id="cont" class=" min-h-screen">
+    <div class="flex">
+        <nav class="nav">
+                <div class="nav-2">
+                    <ul class="text-center">
+                        <li class="list-none inline-block px-5"><a href="#" class="no-underline text-orange-600 hover:text-white px-2 font-bold text-2xl">Home</a></li>
+                        <li class="list-none inline-block px-5"><a href="#popular1" class="no-underline text-orange-600 hover:text-white px-2 font-bold text-2xl">Collection</a></li>
+                        <li class="list-none inline-block px-5"><a href="#follow1" class="no-underline text-orange-600 hover:text-white px-2 font-bold text-2xl">Find Us</a></li>
+                        <li class="list-none inline-block px-5"><a href="#follow1" class="no-underline text-orange-600 hover:text-white px-2 font-bold text-2xl">Subscribe</a></li>
+                    </ul>
+                </div>  
+
+                <div>
+                    <img src="./images/logo.png" class="w-25 cursor-pointer" alt="logo">
+                </div>
+        </nav>
+    </div>
+    
+            <div id="cont-0" class="text-white">
+                <h1 class="text-6xl font-semibold leading-normal ">Buy Your <span class="text-orange-600">Perfect</span></h1>
+                <h1 class="text-6xl font-semibold leading-normal " > Dream Car.</h1>
+                <h1 class="text-3xl font-semibold leading-normal" ><span class="text-orange-600" >100 + </span>New Models</h1>
+                <h1 class="text-3xl font-semibold leading-normal " ><span class="text-orange-600" >1L + </span>Customers</h1>
+            </div>
+</div>
+
+
+
+
+<div class="about pt-6 pb-6 flex-col">
+    <h1 class="font-extrabold text-4xl text-white pb-5 text-center leading-normal">HOW IT WORKS ?</h1>
+    <p class=" text-orange-600 text-3xl font-semibold text-wrap text-center leading-normal">Car Connect provides an easy platform for buyers and sellers. <br> Buyers can browse and connect directly with sellers. <br><span class="font-extrabold text-2xl">Our Secure Payment ensures a smooth process.</span></p>
+</div>
+
+
+<div id="popular1" class="popular bg-black pt-6 pb-6">
+    <div class="pb-4">
+        <h1 class="popular1 text-white font-extralight text-5xl ">POPULAR</h1>
+    </div>
+
+    <div class="flex-row">
+        <div class="column1">
+            <div>
+                <img src="./images/acura1.jpg" class="pb-3" alt="">
+            </div>
+            <div id="brand" class="text-white text-3xl font-semibold"></div>
+
+            <div id="year" class="text-orange-600 text-2xl font-semibold"></div>
+
+        </div>
+        
+
+        <div class="column2">
+            <div>
+                <img src="./images/Agrale.jpg" class="pb-3" alt="">
+            </div>
+            <div id="brand"  class="text-white text-3xl font-semibold"></div>
+
+            <div id="year"  class="text-orange-600 text-2xl font-semibold"></div>
+
+        </div>
+
+    </div>
+
+    <div class="flex-row">
+
+        <div class="column3">
+            <div>
+                <img src="./images/ALFA.jpg" class="pt-3 pb-3" alt="">
+            </div>
+
+            <div id="brand"  class="text-white text-3xl font-semibold"></div>
+
+            <div id="year"  class="text-orange-600 text-2xl font-semibold"></div>
+
+        </div>
+
+
+        <div class="column4">
+            <div>
+                <img src="./images/Pasted image.png" class="pt-3 pb-3" alt="">
+            </div>
+
+            <div id="brand" class="text-white text-3xl font-semibold"></div>
+
+            <div id="year" class="text-orange-600 text-2xl font-semibold"></div>
+
+        </div>
+
+
+    </div> 
+</div>      
+
+
+            <div class="bg-black pb-5 mt-5">
+                <div >
+                    <h1 class=" available-cars text-white text-5xl">Available Cars</h1>
+                </div>
+
+                <div class="fleets">
+                    <div class="fleets-div"></div>
+
+
+                    <div class="car-photo"></div>
+                </div>
+
+            </div>
+
+            <div class="flex-r">
+                <div class="flex-row">
+                    <div class="post-car-section pt-6 ">
+                    <h1 class="text-orange-600 text-5xl font-semibold mb-5">Post Your Car</h1>
+
+                
+                    <form id="carPostForm">
+                        <div class="form-group">
+                            <label for="carMake"></label>
+                            <input type="text" id="carMake" placeholder="Car Make"  name="carMake" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="carModel"></label>
+                            <input type="text" id="carModel" placeholder="Car Model" name="carModel" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="carYear"></label>
+                            <input type="number" id="carYear" placeholder="Car Year"   name="carYear" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="carPrice"></label>
+                            <input type="number" id="carPrice" placeholder="Car Price"   name="carPrice" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="carImage" ></label>
+                            <input type="file" id="carImage"  name="carImage" accept="image/*" class="form-input mt-5 font-semibold border-r-8 bg-white" required>
+                        </div>
+
+                        <button id="carFormPost"  type="submit"  class="button bg-orange-600">Post Car</button>
+                    </form>
+                    </div>
+
+                    <div>
+                    <h1 id="follow1"  class="text-orange-600 text-5xl">Follow Us</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon text-orange-500 font-semibold mr-20"><img src="./images/2023_Facebook_icon.svg.webp" alt="Facebook">Facebook</a>
+                        <a href="#" class="icon text-orange-500 font-semibold mr-20"><img src="./images/twitter.webp" alt="Twitter">Twitter</a>
+                        <a href="#" class="icon text-orange-500 font-semibold"><img src="./images/insta.png" alt="Instagram">Instagram</a>
+                    </div>
+
+                    <!-- Email Subscription -->
+                    <div class="email-subscription">
+                        <input type="email" placeholder="Enter your email for updates" class="email-input">
+                        <button type="submit" class="submit-button bg-orange-600">Subscribe</button>
+                    </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+<div class="contact bg-black">
+    <div>
+        <h1 class="text-white font-extrabold text-4xl text-center leading-normal">Car Connect</h1>
+    </div>
+
+    <div>
+        <p class="text-orange-600 font-extrabold text-4xl text-center leading-normal">We Help You Find Your Dream Car</p>
+    </div>
+
+    <div class="flex-row pb-6 pt-6">
+        <div class="con1-follow text-white ">
+            <h1 class="font-extrabold text-4xl text-orange-600 ">Information</h1>
+            <ul class="font-extralight">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+
+
+        <div class="con2-follow text-white">
+            <h1 class="font-extrabold text-4xl text-orange-600">Company</h1>
+            <ul class="font-extralight">
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#"> Our Story</a></li>
+            </ul>
+        </div>
+
+
+        <div class="con3-follow text-white ">
+            <h1 class="font-extrabold text-4xl text-orange-600 ">Contact</h1>
+            <ul class="font-extralight">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">......</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="pt-6 pb-6 text-center">
+        <h1 class="text-white text-3xl">2023 all Rights Reserved Terms of Use Car Conect</h1>
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
